@@ -34,7 +34,7 @@ p {
   padding: 20px;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
+  min-height: calc(100vh - 38px);
   max-width: 800px;
 }
 
@@ -47,4 +47,24 @@ p {
 .info {
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
+}
+
+.helper {
+  display: none;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.helper.active {
+  display: block;
+}
+
+.helper-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commands p {
+  color: #fff;
 }

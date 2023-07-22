@@ -12,6 +12,7 @@ Fazer essa alternância inteira clicando apenas um botão.
 Algumas melhorias que planejo para o sistema posteriormente:
 
 - [ ] Alterar o modo de visualização clicando M;
+- [x] Criar Helper p/ ajudar nos comandos clicando H;
 - [ ] Finalizar o README;
 - [ ] Adicionar lista lateral (para visualizar vários documentos);
 - [ ] Ajustar responsivo;
